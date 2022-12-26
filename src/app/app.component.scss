@@ -1,0 +1,33 @@
+@import '~swiper/swiper-bundle.min.css';
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-button-prev, 
+.swiper-button-next {
+    color: white;
+    background: black;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    opacity: 50%;
+}
+
+// .swiper-pagination-bullet, 
+// .swiper-pagination-bullet-active {
+//     width: 20px;
+//     height: 20px;
+// }
+
+.swiper-pagination-bullet-active {
+    background: red;
+}
